@@ -57,3 +57,20 @@ div.previous-next a.next:hover {
     color: #fed266;
     border: 2px solid #fed266;
 }
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+
+}
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
